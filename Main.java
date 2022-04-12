@@ -7,7 +7,7 @@ class Main {
     while(rozpoznanie!=0){
       System.out.println("1 -Dodaj studenta   ");
       System.out.println("2 -Wypisz wszystkich studentów   ");
-      System.out.println("3 -Wyjdź");
+      System.out.println("0 -Wyjdź");
       rozpoznanie=sc.nextInt();
       while(rozpoznanie !=1&rozpoznanie !=2&rozpoznanie!=0){
         System.out.println("Taka opcja nie istnieje...\nWybierz ponownie:");
